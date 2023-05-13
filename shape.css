@@ -4,12 +4,16 @@
     background-color: red;
     border-radius: 50%;
     transition: 1s;
+    position: relative;
+    left: 43%;
 }
 .circle:hover{
     border-radius: 0%;
     background-color: lightskyblue;
 }
 .rectangle{
+    position: relative;
+    left:43%;
     width: 100px;
     height: 100px;
     background-color: black;
@@ -28,6 +32,8 @@
     border-bottom:80px transparent ;
 }
 .triangle{
+    position: absolute;
+    right:50%;
      width: 100px; 
     height: 100px;
     background-color: blueviolet;
@@ -35,12 +41,11 @@
     transition: 1s;
 }
 .triangle:hover{
-   border-radius: 0%;
-   height: 0px;
-   width: 0px;
-   border-width: 0 50px 86.6px;
-   border-color: transparent transparent red;
-    /* border-bottom: 100px solid black; */
-    /* border-left: 50px transparent; */
-    /* border-right: 50px transparent; */
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 50px;
+    border-left-width: 50px;
+    border-bottom: 100px solid #6980fe;
+    background-color: transparent;
 }
