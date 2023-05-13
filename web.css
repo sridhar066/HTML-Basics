@@ -1,0 +1,115 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(living.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  .logo{
+    width: 120px;
+    cursor: pointer;
+  }
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  .navbar ul li ::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: lightseagreen;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    transition: 0.5 s;
+
+  }
+  .navbar ul li :hover::after{
+    width: 100%;
+  }
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: white;
+  transform: translateY(-50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+.content h1{
+  font-size: 50px;
+  margin-top:50px;
+}
+.content p{
+  font-weight: 100;
+  margin:20px auto;
+  margin-top: 20px;
+}
+.contact{
+  position: absolute;
+  left: 30%;
+  margin-top: 50px;
+  width: 170px;
+  height: 100px;
+  border: 2px solid white;
+  
+}
+.contact p{
+  font-family: sans-serif;
+  text-transform: none;
+}
+.mail{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  margin-top: 50px;
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+}
+.mail p{
+  font-family: sans-serif;
+  text-transform: none;
+}
+.booking{
+  position: absolute;
+  text-align: center;
+  left: 70%;
+  margin-top: 50px;
+  width: 150px;
+  height: 100px;
+  border: 100%;
+  border-color: red;
+  border: 2px solid white;
+  
+  
+}
+
+.booking p{
+  font-family: sans-serif;
+  text-transform: none;
+  position: absolute;
+  text-align: center; 
+}
+
+

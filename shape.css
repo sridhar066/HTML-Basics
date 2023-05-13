@@ -1,0 +1,46 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition: 1s;
+}
+.circle:hover{
+    border-radius: 0%;
+    background-color: lightskyblue;
+}
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    transition: 1s;
+    
+}
+.rectangle:hover{
+    border-radius: 0%;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(21, 56, 229);
+    transition: 1s;
+    border-left: 40px transparent;
+    border-right: 40px transparent;
+    border-bottom:80px transparent ;
+}
+.triangle{
+     width: 100px; 
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transition: 1s;
+}
+.triangle:hover{
+   border-radius: 0%;
+   height: 0px;
+   width: 0px;
+   border-width: 0 50px 86.6px;
+   border-color: transparent transparent red;
+    /* border-bottom: 100px solid black; */
+    /* border-left: 50px transparent; */
+    /* border-right: 50px transparent; */
+}
