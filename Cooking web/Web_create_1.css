@@ -1,0 +1,296 @@
+div>.flex{
+    display: flex;
+    flex-direction: row;
+    height: 3.5rem;
+    position: sticky;
+    top: 0;
+}
+div>.flex1{
+    background-color:rgba(255, 0, 0, 0.795);
+    border-left: 1px solid black;
+    text-align: center;
+    width: 16rem;
+    font-size: 20px;
+    padding-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>.flex>div~div{
+    border-left: 1px solid black;
+    background-color:white;
+    text-align: center;
+    width: 16rem;
+    font-size: 20px;
+    padding-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+div>.flex>div~div:hover{
+    background-color:rgba(255, 0, 0, 0.795);
+    color: white;
+}
+div>.fix{
+    padding: 8px;
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    font-size: 23px;
+    position: fixed;
+    bottom: 3%;
+    right:3%;
+    background-color: rgba(255, 0, 0, 0.795);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+div>.div2{
+    background-color: beige;
+    height: fit-content;
+}
+div>.div2>h1{
+color: brown;
+text-align: center;
+font-size:2.8rem;
+}
+div>.div2>ul{
+    margin-left: 20%;
+}
+div>.div2>p{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>.div2>ul>li{
+    font-size: 21px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>.div2>ul>p{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>.div2>ul>ul{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>.div2>div{
+    border: 1px solid rgba(255, 0, 0, 0.795);
+    background-color: azure;
+    color: rgba(255, 0, 0, 0.795);
+    text-align: center;
+    width: 19rem;
+    height: 2.2rem;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-right: 41%;
+    padding-top:8px;
+}
+div>.div2>div:hover{
+    border: 1px solid rgba(255, 0, 0, 0.795);
+    background-color: rgba(255, 0, 0, 0.795);
+    color:aliceblue;
+    text-align: center;
+    width: 19rem;
+    height: 2.2rem;
+    font-size: 20px;
+    margin-left: 41%;
+    margin-right: 41%;
+    padding-top:8px;
+}
+
+.div3{
+display: flex;
+}
+.div3>div{
+    width: 50%;
+}
+.div31{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 4rem 5rem 0 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 0, 0, 0.795) ;
+    text-align: center;
+    background-image:url(0b340f_c45f5ee70e5c4e4b90997847adce700e~mv2_d_1358_1646_s_2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13rem;
+}
+.div32{
+    font-size: 40px;
+    text-align:center;
+    margin-top: 2rem;
+}
+.div33{
+    border: 1px solid rgba(255, 0, 0, 0.795);
+    background-color: rgba(255, 0, 0, 0.795);
+    color: aliceblue;
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top:8px;
+}
+.div34{
+    border: 1px solid rgba(255, 0, 0, 0.795);
+    background-color: azure;
+    color:  rgba(255, 0, 0, 0.795);
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top:13px; 
+    font-weight: 400;
+}
+.div34:hover{
+    border: 1px solid rgba(255, 0, 0, 0.795);
+    background-color:rgba(255, 0, 0, 0.795);
+    color: aliceblue;
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top:15px; 
+    font-weight: 400;
+}
+.div35 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.div36{
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-left: 30%;
+}
+.div37{
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 22px;
+    margin-top: 0.5rem;
+    margin-left: 30%; 
+}
+.div38{
+    margin-top: 15rem;
+}
+
+.div4{
+    display: flex;
+}
+.div41{
+    width: 45%;
+    background-color: rgba(255, 0, 0, 0.795);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.div41>div{
+    margin: 9rem 0 0 3.7rem ;
+}
+
+.div4>div~div{
+    width: 55%;
+    margin-right: 9rem;
+    margin-left: 2rem;
+    text-align: left;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div42{
+color: rgba(255, 0, 0, 0.795);
+font-size: 35px;
+}
+.div4>div>p{
+    font-size: 25px;   
+}
+.div43{
+    border: 1px solid black;
+    background-color: azure;
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top:13px; 
+    font-weight: 400;
+}
+.div43:hover{
+    border: 1px solid black;
+    background-color: azure;
+    color:rgba(255, 0, 0, 0.795) ;
+    text-align: center;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top:13px; 
+    font-weight: 400;
+}
+
+.div6{
+    text-align: center;
+}
+.div61{
+    color:rgba(255, 0, 0, 0.795) ;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.div62{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.div63{
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+.div5{
+display: flex;
+flex-direction: column;
+
+}
+.div51{
+    display: flex;
+    flex-direction: row;
+ margin-top: 2.5rem;
+ margin-bottom: 2.5rem;
+ width: 50%;
+}
+.div51>img{
+    margin-right: 4rem;
+}
+.div51>div>img{
+    margin-left: 4rem;
+}
+
+
+.div7{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:400px;
+}
+.div7>div{
+    overflow:hidden;
+    background:none;
+    width:100%;
+    height:400px;
+}
+.div7>div>iframe{
+    width:100%;
+    height:400px;
+}

@@ -1,0 +1,761 @@
+div{
+    background-color:lightskyblue;
+    border: 10px solid rgb(216, 206, 206) ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    
+}
+h2{
+    border:2px  ;
+    background-color: none;
+    color:rgb(241, 250, 250);
+    width: 30rem;
+    height: fit-content;
+    padding: 1rem;
+    margin: 0 30% 1% 30%;
+    text-align: center;
+    
+}
+.Beljium{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 13rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;
+   
+      
+}
+.Beljium>div{
+    background-color: #2d2926;
+    border: 1px solid  #2d2926;
+    height: 4.3rem;
+    
+}
+.Beljium>div~div{
+    background-color: #ffcd00;
+    border: 1px solid  #ffcd00;
+    height: 4.3rem;
+   
+}
+.Beljium>div~div+div{
+    background-color: #cb102e;
+     border: 1px solid  #cb102e;
+    height: 4.3rem;
+   
+}
+.Beljium>div{
+    background-color: #2d2926;
+    border: 1px solid  #2d2926;
+    height: 4.3rem;
+    
+}
+.Beljium>div~div{
+    background-color: #ffcd00;
+    border: 1px solid  #ffcd00;
+    height: 4.3rem;
+    
+}
+.Beljium>div~div+div{
+    background-color: #cb102e;
+     border: 1px solid  #cb102e;
+    height: 4.3rem;
+    
+}
+
+
+
+.Lithunia{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;
+   
+}
+.Lithunia>div{
+    background-color:#fdb913 ;
+    border: 1px solid  #fdb913;
+    height: 4rem;
+    
+}
+.Lithunia>div~div{
+    background-color: #006a44;
+    border: 1px solid  #006a44;
+    height: 4rem;
+    
+}
+.Lithunia>div~div+div{
+    background-color: #c1272d;
+     border: 1px solid  #c1272d;
+    height: 4rem;
+    
+}
+
+
+.Japan{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;
+      
+}
+.Japan>div{
+    background-color:#ffffff;
+    border: 1px solid  #ffffff;
+    height: 10rem;
+    width: 15rem;
+    position: relative;
+}
+.Japan>div~div{
+    background-color:#bc002d;
+    border: 1px solid  #bc002d;
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius:3.5rem;
+    margin: 1.5rem 4rem 1.5rem 4rem;  
+}
+
+.Russia{
+ display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;
+     
+}
+.Russia>div{
+    background-color:#ffffff ;
+    border: 1px solid  #ffffff;
+    height: 3.3rem;
+   
+}
+.Russia>div~div{
+    background-color: #1c3578;
+    border: 1px solid  #1c3578;
+    height: 3.3rem;
+    
+}
+.Russia>div~div+div{
+    background-color: #e4181c;
+     border: 1px solid  #e4181c;
+    height: 3.3rem; 
+}
+
+.Nedharlands{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 15rem;
+    width: 10rem;
+    margin: 0 0 1% 40%;   
+}
+.Nedharlands>div{
+    background-color:  #c8102e; 
+    border: 1px solid  #c8102e;
+    height: 5rem;
+   
+}
+.Nedharlands>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 5rem;
+    
+}
+.Nedharlands>div~div+div{
+    background-color: #003d4e;
+     border: 1px solid  #003d4e;
+    height: 5rem;  
+}
+
+.Italy{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Italy>div{
+    background-color:  #008c45; 
+    border: 1px solid  #008c45;
+    width: 5rem;
+   
+}
+.Italy>div~div{
+    background-color: #f4f9ff;
+    border: 1px solid  #f4f9ff;
+    width: 5rem;
+    
+}
+.Italy>div~div+div{
+    background-color: #cd212a;
+     border: 1px solid  #cd212a;
+    width: 5rem;  
+}
+
+.Armenia{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Armenia>div{
+    background-color:  #d90012; 
+    border: 1px solid  #d90012;
+    height: 4rem;
+   
+}
+.Armenia>div~div{
+    background-color: #001489;
+    border: 1px solid  #001489;
+    height: 4rem;
+    
+}
+.Armenia>div~div+div{
+    background-color: #ff9e1b;
+     border: 1px solid  #ff9e1b;
+    height: 4rem;  
+}
+
+.Astria{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Astria>div{
+    background-color:  #ef3340; 
+    border: 1px solid  #ef3340;
+    height: 4rem;
+   
+}
+.Astria>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 4rem;
+    
+}
+.Astria>div~div+div{
+    background-color: #ef3340;
+     border: 1px solid  #ef3340;
+    height: 4rem;  
+}
+
+
+.Benin{
+    display:flex;
+    flex-direction: column;
+    width:15rem;
+    height:12rem;
+    border:2px ; 
+    margin: 0 0 1% 40%;    
+    
+}
+.Benin>div{
+    background-color:  #008751; 
+    border: 1px solid  #008751;
+    height: 12rem;  
+    width: 15rem;
+    
+}
+.Benin>div>div{
+    width: 12rem;
+    height: 6rem;
+    background-color: #FCD116;
+    border: 1px ; 
+    margin-left: 6rem;
+
+}
+
+.Benin>div>div+div{
+    width: 12rem;
+    height: 6rem;
+    background-color: #E8112D;
+    border: 1px ;
+    margin-left: 6rem;
+    
+}
+
+.Balgaria{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Balgaria>div{
+    background-color:  #ffffff; 
+    border: 1px solid  #ffffff;
+    height: 4rem;
+   
+}
+.Balgaria>div~div{
+    background-color: #00966e;
+    border: 1px solid  #00966e;
+    height: 4rem;
+    
+}
+.Balgaria>div~div+div{
+    background-color: #d62612;
+     border: 1px solid  #d62612;
+    height: 4rem;  
+}
+
+.Gambia{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Gambia>div{
+    background-color:  #d82323; 
+    border: 1px solid  #d82323;
+    height: 4rem;
+   
+}
+.Gambia>div~div{
+    background-color: #160096;
+    border-top: 0.8rem solid  #ffffff;
+    border-bottom:0.8rem solid #ffffff;
+    border-right: 0;
+    border-left: 0;
+    height: 4rem;
+    
+}
+.Gambia>div~div+div{
+    background-color: #03521d;
+     border: 1px solid  #03521d;
+    height: 4rem;  
+}
+
+.Hungary{
+    display: flex;
+    flex-direction: column;
+    border: 1px ;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Hungary>div{
+    background-color:  #ce2939; 
+    border: 1px solid  #ce2939;
+    height: 4rem;
+   
+}
+.Hungary>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 4rem;
+    
+}
+.Hungary>div~div+div{
+    background-color: #477050;
+     border: 1px solid  #477050;
+    height: 4rem;  
+}
+
+.Irland{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    height: 10rem;
+    width: 21rem;
+    margin: 0 0 1% 40%;   
+}
+.Irland>div{
+    background-color:  #169b62; 
+    border: 1px solid  #169b62;
+    width: 7rem;
+   
+}
+.Irland>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    width: 7rem;
+    
+}
+.Irland>div~div+div{
+    background-color: #ff883e;
+     border: 1px solid  #ff883e;
+    width: 7rem;  
+}
+
+.Madagascar{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Madagascar>div{
+    background-color:  #ffffff; 
+    border: 1px;
+    height: 12rem; 
+    width: 15rem; 
+}
+.Madagascar>div>div{
+    width: 12rem;
+    height: 6rem;
+    background-color: #f9423a;
+    border: 1px; 
+    margin-left: 6rem;  
+    
+}
+.Madagascar>div>div+div{
+    width: 12rem;
+    height: 6rem;
+    background-color: #00843d;
+    border: 1px;
+    margin-left: 6rem;
+    
+}
+
+.Jermany{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 6rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Jermany>div{
+    background-color:  #000000; 
+    border: 1px solid  #000000;
+    height: 4rem;
+   
+}
+.Jermany>div~div{
+    background-color: #dd0000;
+    border: 1px solid  #dd0000;
+    height: 4rem;
+    
+}
+.Jermany>div~div+div{
+    background-color: #ffcc00;
+     border: 1px solid  #ffcc00;
+     height: 4rem;
+}
+.England{
+    display: flex;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;  
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+.England>div{
+    flex-direction: column;
+    background-color: red;
+    border: 1px solid  red;
+    height: 2rem;
+    width: 15rem;
+   position: absolute;
+    
+}
+.England>div~div{
+    flex-direction: row;
+    background-color: red;
+     border: 1px solid red;
+     height: 12rem;
+     width: 2rem;
+     position: absolute; 
+}
+
+.Switzerland{
+    display: flex;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;  
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+.Switzerland>div{
+    flex-direction: column;
+    background-color: #DA291C;
+    border: 1px solid  #DA291C;
+    height: 2rem;
+    width: 10rem;
+   position: absolute;
+    
+}
+.Switzerland>div~div{
+    flex-direction: row;
+    background-color: #DA291C;
+     border: 1px solid #DA291C;
+     height: 8rem;
+     width: 2rem;
+     position: absolute;    
+}
+
+.France{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.France>div{
+    background-color:  #002654; 
+    border: 1px solid  #002654;
+    width: 5rem;
+   
+}
+.France>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    width: 5rem;
+    
+}
+.France>div~div+div{
+    background-color: #ed2939;
+     border: 1px solid  #ed2939;
+    width: 5rem;  
+}
+
+.Finland{
+    display: flex;
+    background-color: #ffffff;
+    border: 0;
+    height: 12rem;
+    width: 18rem;
+    margin: 0 0 1% 40%;  
+    align-items: center;
+    position: relative; 
+}
+.Finland>div{
+    flex-direction: column;
+    background-color: #002f6c;
+    border: 1px solid  #00256c;
+    height: 2.5rem;
+    width: 18rem;
+   position: absolute;
+    
+}
+.Finland>div~div{
+    flex-direction: row;
+    background-color: #002f6c;
+     border: 1px solid #002f6c;
+     height: 12rem;
+     width: 2.5rem;
+     left: 25%;
+     position: absolute;    
+}
+
+.Indhonesia{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Indhonesia>div{
+    background-color:  #ff0000; 
+    border: 1px solid  #ff0000;
+    height: 5rem;
+   
+}
+.Indhonesia>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 5rem;
+}
+.Latvia{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Latvia>div{
+    background-color:  #a4343a; 
+    border: 1px solid  #a4343a;
+    height: 4rem;  
+}
+.Latvia>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 4rem;
+}
+.Latvia>div~div+div{
+    background-color: #a4343a;
+    border: 1px solid  #a4343a;
+    height: 4rem;
+}
+
+
+.Yemen{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Yemen>div{
+    background-color:  #ce1126; 
+    border: 1px solid  #ce1126;
+    height: 4rem;  
+}
+.Yemen>div~div{
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 4rem;
+}
+.Yemen>div~div+div{
+    background-color: #000000;
+    border: 1px solid  #000000;
+    height: 4rem;
+}
+
+.Sweden{
+    display: flex;
+    background-color: #006AA7;
+    border: 0;
+    height: 12rem;
+    width: 18rem;
+    margin: 0 0 1% 40%;  
+    align-items: center;
+    position: relative; 
+}
+.Sweden>div{
+    flex-direction: column;
+    background-color: #FECC02;
+    border: 1px solid  #FECC02;
+    height: 2.5rem;
+    width: 18rem;
+   position: absolute;   
+}
+.Sweden>div~div{
+    flex-direction: row;
+    background-color: #FECC02;
+     border: 1px solid #FECC02;
+     height: 12rem;
+     width: 2.5rem;
+     left: 25%;
+     position: absolute;    
+}
+
+.Romania{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;   
+}
+.Romania>div{
+    background-color:  #002b7f; 
+    border: 1px solid  #002b7f;
+    width: 5rem;
+   
+}
+.Romania>div~div{
+    background-color: #fcd116;
+    border: 1px solid  #fcd116;
+    width: 5rem;   
+}
+.Romania>div~div+div{
+    background-color: #ce1126;
+     border: 1px solid  #ce1126;
+    width: 5rem;  
+}
+.Poland{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 10rem;
+    width: 14rem;
+    margin: 0 0 1% 40%;   
+}
+.Poland>div{
+    background-color:  #ffffff; 
+    border: 1px solid  #ffffff;
+    height: 5rem;
+   
+}
+.Poland>div~div{
+    background-color: #dc143c;
+    border: 1px solid  #dc143c;
+    height: 5rem;
+}
+.Palau{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;
+}
+.Palau>div{
+    background-color: #0085ca;
+    border: 1px solid  #0085ca;
+    height: 10rem;
+    width: 15rem;
+    position: relative;
+}
+.Palau>div~div{
+    background-color: #ffd100;
+    border: 1px solid  #ffd100;
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius:3.5rem;
+    margin: 1.5rem 4rem 1.5rem 4rem;  
+}
+
+.Denmark{
+    display: flex;
+    background-color: #C8102E;
+    border: 0;
+    height: 12rem;
+    width: 15rem;
+    margin: 0 0 1% 40%;  
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+.Denmark>div{
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid  #ffffff;
+    height: 2rem;
+     width: 15rem;
+   position: absolute;
+    
+}
+.Denmark>div~div{
+    flex-direction: row;
+    background-color: #ffffff;
+     border: 1px solid #ffffff;
+     height: 12rem;
+     width: 2rem;
+     left: 25%;
+     position: absolute;    
+}
